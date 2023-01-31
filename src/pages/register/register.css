@@ -1,0 +1,50 @@
+.register {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.RContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.RInput {
+  height: 30px;
+  padding: 10px;
+}
+.RSelect {
+  height: 50px;
+  padding: 15px;
+}
+
+.RButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #1b5719;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.RButton:disabled {
+  background-color: #20721d;
+  cursor: not-allowed;
+}
+.Rpargrah{
+    color: rgb(158, 177, 156);
+}
+.Rpargrah span{
+    color: rgb(158, 177, 156);
+}
+.Rlink{
+    color: rgb(37, 150, 122);
+}

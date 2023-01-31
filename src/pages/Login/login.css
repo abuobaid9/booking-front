@@ -1,0 +1,46 @@
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.lContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lInput{
+  height: 30px;
+  padding: 10px;
+}
+
+.lButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.lButton:disabled{
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}
+.Ipargrah{
+  color: rgb(158, 177, 156);
+}
+.ILink{
+  color: rgb(37, 150, 122);
+}
+.IMes{
+  color: rgb(123, 115, 160);
+}
