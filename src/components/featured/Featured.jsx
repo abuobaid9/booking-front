@@ -2,8 +2,8 @@ import useFetch from "../../hooks/useFetch";
 import "./featured.css";
 
 const Featured = () => {
-  const { data, loading, error } = useFetch(
-    "/hotels/countByCity?cities=amman,zarqa,irbid"
+  const { data, loading } = useFetch(
+    "https://rose-lucky-dolphin.cyclic.app/api/hotels/countByCity?cities=amman,zarqa,irbid"
   );
 
   return (

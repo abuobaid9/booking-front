@@ -45,7 +45,7 @@ const Register = () => {
       let bodyContent = JSON.stringify(newUser);
       console.log(bodyContent + "ssssssssss");
       let reqOptions = {
-        url: "/auth/register",
+        url: "https://rose-lucky-dolphin.cyclic.app/api/auth/register",
         method: "POST",
         headers: headersList,
         data: bodyContent,
