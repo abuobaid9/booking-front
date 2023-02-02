@@ -18,7 +18,7 @@ const Navbar = () => {
         </Link>
         {user ? (
           <div>
-           Hello {user.username}
+         Hello <span className="nameSpan"> {user.username}</span>  
 
             <button className="navButton" onClick={logout}>
               Log Out
