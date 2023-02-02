@@ -1,6 +1,6 @@
 # Clever Booking
 
-## What is Cryptoverse ?
+## What is Clever Booking ?
 
 - Clever Booking is s Hotels Reservation System 
 - Give you a  Summary of the properties type by Cities and Types
