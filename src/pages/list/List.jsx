@@ -18,7 +18,7 @@ const List = () => {
   const [max, setMax] = useState(undefined);
 
   const { data, loading,  reFetch } = useFetch(
-    `https://rose-lucky-dolphin.cyclic.app/api/hotels?city=${destination}&min=${min || 0 }&max=${max || 999}`
+    `https://rose-lucky-dolphin.cyclic.app/api/hotels?city=${destination}&min=${min || 0 }&max=${max || 9999}`
   );
 
   const handleClick = () => {
@@ -107,7 +107,7 @@ const List = () => {
           </div>
           <div className="listResult">
             {loading ? (
-              "loading"
+           <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
             ) : (
               <>
                 {data.map((item) => (
