@@ -25,11 +25,11 @@
 
 ![img](./src/images/9.png)
 
-## ** Hotel Page : The main info about every hotel**
+## **Hotel Page : The main info about every hotel**
 
 ![img](./src/images/6.png)
 ![img](./src/images/7.png)
 
-##  **Reseve Page : The main info about every room in the hotel **
+##  **Reseve Page : The main info about every room in the hotel**
 
 ![img](./src/images/8.png)
